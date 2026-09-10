@@ -13,8 +13,9 @@ One_Hot_Encoder = joblib.load('encoder.pkl')
 st.markdown("""
 <style>
     .stApp {
-        background-color: #0a0e1a;
+        background: linear-gradient(135deg, #0a0e1a 0%, #131824 50%, #0d1520 100%);
         color: #e0e0e0;
+}
     }
     [data-testid="stMetric"] {
         background-color: #131824;
